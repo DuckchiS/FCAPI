@@ -1,0 +1,64 @@
+@charset "UTF-8";
+/* CSS 파일 */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #0b1446; /* 다크 블루 배경색 */
+    color: #fff; /* 흰색 텍스트 */
+    padding: 20px;
+}
+
+form {
+    margin-bottom: 20px;
+}
+
+input[type="text"],
+input[type="submit"] {
+    padding: 10px;
+    font-size: 16px;
+    background-color: #29ab87; /* 밝은 초록색 입력 필드 배경색 */
+    color: #fff; /* 흰색 텍스트 */
+    border: none;
+    border-radius: 5px;
+}
+
+input[type="submit"] {
+    cursor: pointer; /* 마우스 커서를 포인터로 변경하여 클릭 가능한 요소임을 나타냄 */
+}
+
+hr {
+    border: none;
+    border-top: 1px solid #fff; /* 흰색 실선 */
+    margin: 20px 0;
+}
+
+.title-box {
+    display: inline-block;
+    padding: 10px 20px;
+    margin-bottom: 20px;
+    background-color: #fcb040; /* 오렌지색 박스 배경색 */
+    color: #0b1446; /* 다크 블루 텍스트 */
+    border-radius: 5px;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+}
+
+a {
+    display: inline-block;
+    margin-left: 10px;
+    text-decoration: none;
+    color: #fff; /* 흰색 텍스트 */
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); /* 약간의 그림자 효과 추가 */
+}
